@@ -1,6 +1,8 @@
 # ThaanaNews
 
-TODO: Write a gem description
+Fetches news content from news websites of Maldives.
+
+Currently fetches content from aafathis,kattelhi,sun,haveeru,miadhu & minivan.
 
 ## Installation
 
@@ -18,7 +20,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+ThaanaNews.get(provider)
+
+The possible values for provider are 
+:haveeru
+:miadhu
+:minivan
+:kattelhi
+:sun
+:aafathis
 
 ## Contributing
 
